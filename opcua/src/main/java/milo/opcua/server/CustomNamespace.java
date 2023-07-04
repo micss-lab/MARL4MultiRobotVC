@@ -68,7 +68,7 @@ public class CustomNamespace extends ManagedNamespace {
                     .setDescription(LocalizedText.english("Target Destination Point"))
                     .build();
 
-            Vector3D vector = new Vector3D(2000, 3000, 0);
+            Vector3D vector = new Vector3D(5000, 6000, 0);
 
             UaVariableNode positionX = createUaVariableNode(newNodeId("6-unique-identifier"), AccessLevel.READ_WRITE, AccessLevel.READ_WRITE, Identifiers.Integer, "X Position", "Updating the X Position", "Get the X Position");
             UaVariableNode positionY = createUaVariableNode(newNodeId("7-unique-identifier"), AccessLevel.READ_WRITE, AccessLevel.READ_WRITE, Identifiers.Integer, "Y Position", "Updating the Y Position", "Get the Y Position");
