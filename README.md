@@ -38,7 +38,7 @@ mvn install
 
 This command will resolve and install the necessary Java dependencies specified in the project's `pom.xml` file.
 
-## Known Issues and Challenges
+## Encountered Issues and Challenges
 
 During the development of this project, several issues and challenges were identified:
 
