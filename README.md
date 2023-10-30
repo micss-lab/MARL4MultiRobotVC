@@ -64,6 +64,7 @@ By following the integration steps outlined in this documentation and keeping th
 
 ## Todo
 
+Short-term activities:
 1. Transforming the C code (MARL) to Jave
 2.1 Data Type Conversions
 3. Use existing Java APIs for MARL
