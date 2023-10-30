@@ -61,3 +61,18 @@ Please keep these issues in mind while developing and using this project, and co
 This project represents an integration of Python and Java components to simulate vehicle control within a virtual environment and manage data using OPC UA. While it provides a foundation for these functionalities, it's important to continuously monitor and improve the project to address known issues and challenges.
 
 By following the integration steps outlined in this documentation and keeping the identified issues in mind, you can effectively use this project as a starting point for further development and customization. Consider exploring modern frameworks and approaches to enhance the project's performance and reliability.
+
+## Todo
+
+1. Transforming the C code (MARL) to Jave
+2.1 Data Type Conversions
+3. Use existing Java APIs for MARL
+4. Automatically generating the multi-robot environment in VC (using the input matrix)
+5. Adding uncertainty: human interaction or wear-and-tear scenario
+
+
+Long-term activities:
+1. Use other AI APIs such as ML, GA, and so on to compare the results with MARL
+2. Unknown/undefined but static environment (obstacles, charging stations, loading/unloading stations)
+3. Dynamic environment (obstacles, charging stations, loading/unloading stations)
+4. Learning the collaboration between agents (using transfer learning)
